@@ -44,7 +44,7 @@ block content
               for trace in block
                 tr            
                   td 
-                    a(href="/tx/" + trace.transactionHash)  #{trace.transactionHash.substr(0, 10)}...
+                    a(href="/tx/" + trace.transactionHash)  #{(trace.transactionHash || 'NONE').substr(0, 10)}...
                   td
                     a(href="/block/" + trace.blockNumber) #{trace.blockNumber}
                   td.capitalize
