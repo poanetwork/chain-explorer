@@ -1,3 +1,4 @@
 [submodule "utils/solc-bin"]
 	path = utils/solc-bin
-	url = https://github.com/oraclesorg/solc-bin
+	url = https://github.com/poanetwork/solc-bin
+        branch = gh-pages
